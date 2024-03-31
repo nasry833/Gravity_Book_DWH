@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Source_Book_OLTP"
+  DTS:DTSID="{CCF1B398-7E9A-40D8-9FC5-1F665BC80927}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=gravity_books1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ETL Galaxy Book Store Package-{CCF1B398-7E9A-40D8-9FC5-1F665BC80927}LocalHost.gravity_books1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

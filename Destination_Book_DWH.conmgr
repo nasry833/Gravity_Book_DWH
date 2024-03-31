@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Destination_Book_DWH"
+  DTS:DTSID="{CA629DCD-CD35-4382-8849-42A685499B0F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=GravityBooksDWH;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ETL Galaxy Book Store Package-{CA629DCD-CD35-4382-8849-42A685499B0F}LocalHost.GravityBooksDWH;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
